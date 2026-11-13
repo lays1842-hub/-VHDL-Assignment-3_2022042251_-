@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="5.0.0" version="1.0">
+  <lib desc="#Wiring" name="0" />
+  <lib desc="#Gates" name="1" />
+  <lib desc="#Base" name="9" />
+  <main name="main" />
+  <options>
+    <a name="gateUndefined" val="ignore" />
+    <a name="simlimit" val="1000" />
+    <a name="simrand" val="0" />
+  </options>
+  <toolbar>
+    <tool name="Poke Tool" />
+    <tool name="Edit Tool" />
+    <tool name="Wiring Tool" />
+    <tool lib="0" name="Pin" />
+    <tool lib="1" name="NOR Gate" />
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution" />
+    <wire from="(120,160)" to="(330,160)" />
+    <wire from="(120,360)" to="(330,360)" />
+    <wire from="(390,180)" to="(490,180)" />
+    <wire from="(490,180)" to="(570,180)" />
+    <wire from="(390,340)" to="(440,340)" />
+    <wire from="(440,340)" to="(570,340)" />
+    <wire from="(490,180)" to="(490,280)" />
+    <wire from="(300,280)" to="(490,280)" />
+    <wire from="(300,280)" to="(300,320)" />
+    <wire from="(300,320)" to="(330,320)" />
+    <wire from="(440,240)" to="(440,340)" />
+    <wire from="(270,240)" to="(440,240)" />
+    <wire from="(270,200)" to="(270,240)" />
+    <wire from="(270,200)" to="(330,200)" />
+    <comp lib="0" loc="(120,160)" name="Pin">
+      <a name="label" val="R" />
+    </comp>
+    <comp lib="0" loc="(120,360)" name="Pin">
+      <a name="label" val="S" />
+    </comp>
+    <comp lib="0" loc="(570,180)" name="Pin">
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+      <a name="label" val="Q" />
+    </comp>
+    <comp lib="0" loc="(570,340)" name="Pin">
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+      <a name="label" val="Qbar" />
+    </comp>
+    <comp lib="1" loc="(390,180)" name="NOR Gate">
+      <a name="inputs" val="2" />
+    </comp>
+    <comp lib="1" loc="(390,340)" name="NOR Gate">
+      <a name="inputs" val="2" />
+    </comp>
+  </circuit>
+</project>

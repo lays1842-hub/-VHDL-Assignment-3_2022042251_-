@@ -1,0 +1,5 @@
+tb_assignment3.vhd:33:9:@60ns:(report note): RS latch: set, reset, hold, forbidden inputs passed
+tb_assignment3.vhd:41:9:@90ns:(report note): D latch: transparent and hold passed
+tb_assignment3.vhd:61:9:@200ns:(report note): D and JK flip-flops: rising edge and all modes passed
+tb_assignment3.vhd:82:9:@310ns:(report note): Asynchronous D flip-flop: set, clear, priority and normal operation passed
+tb_assignment3.vhd:83:9:@310ns:(report note): ALL TESTS PASSED

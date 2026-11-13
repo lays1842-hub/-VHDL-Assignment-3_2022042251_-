@@ -1,0 +1,7 @@
+# ** Note: RS latch: set, reset, hold, forbidden inputs passed
+# ** Note: D latch: transparent and hold passed
+# ** Note: D and JK flip-flops: rising edge and all modes passed
+# ** Note: Asynchronous D flip-flop: set, clear, priority and normal operation passed
+#    Time: 310 ns  Iteration: 0  Instance: /tb_assignment3
+# ** Note: ALL TESTS PASSED
+#    Time: 310 ns  Iteration: 0  Instance: /tb_assignment3

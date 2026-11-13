@@ -1,0 +1,11 @@
+Running 01_rs_latch.circ
+RESULT: [7, 0]
+Running 02_d_latch.circ
+RESULT: [5, 0]
+Running 03_d_flip_flop.circ
+RESULT: [8, 0]
+Running 04_jk_flip_flop.circ
+RESULT: [15, 0]
+Running 05_dff_async_set_clear.circ
+RESULT: [13, 0]
+All five Logisim test sequences passed.

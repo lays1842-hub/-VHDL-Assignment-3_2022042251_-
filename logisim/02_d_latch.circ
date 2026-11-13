@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="5.0.0" version="1.0">
+  <lib desc="#Wiring" name="0" />
+  <lib desc="#Gates" name="1" />
+  <lib desc="#Base" name="9" />
+  <main name="main" />
+  <options>
+    <a name="gateUndefined" val="ignore" />
+    <a name="simlimit" val="1000" />
+    <a name="simrand" val="0" />
+  </options>
+  <toolbar>
+    <tool name="Poke Tool" />
+    <tool name="Edit Tool" />
+    <tool name="Wiring Tool" />
+    <tool lib="0" name="Pin" />
+    <tool lib="1" name="NAND Gate" />
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution" />
+    <wire from="(100,140)" to="(180,140)" />
+    <wire from="(180,140)" to="(460,140)" />
+    <wire from="(180,140)" to="(180,300)" />
+    <wire from="(180,300)" to="(240,300)" />
+    <wire from="(180,300)" to="(180,340)" />
+    <wire from="(180,340)" to="(240,340)" />
+    <wire from="(100,500)" to="(400,500)" />
+    <wire from="(400,420)" to="(400,500)" />
+    <wire from="(400,180)" to="(400,420)" />
+    <wire from="(400,180)" to="(460,180)" />
+    <wire from="(400,420)" to="(460,420)" />
+    <wire from="(300,320)" to="(330,320)" />
+    <wire from="(330,320)" to="(330,380)" />
+    <wire from="(330,380)" to="(460,380)" />
+    <wire from="(520,160)" to="(700,160)" />
+    <wire from="(520,400)" to="(620,400)" />
+    <wire from="(620,400)" to="(620,420)" />
+    <wire from="(620,420)" to="(700,420)" />
+    <wire from="(760,180)" to="(880,180)" />
+    <wire from="(880,180)" to="(930,180)" />
+    <wire from="(760,400)" to="(840,400)" />
+    <wire from="(840,400)" to="(930,400)" />
+    <wire from="(880,180)" to="(880,300)" />
+    <wire from="(660,300)" to="(880,300)" />
+    <wire from="(660,300)" to="(660,380)" />
+    <wire from="(660,380)" to="(700,380)" />
+    <wire from="(840,280)" to="(840,400)" />
+    <wire from="(640,280)" to="(840,280)" />
+    <wire from="(640,200)" to="(640,280)" />
+    <wire from="(640,200)" to="(700,200)" />
+    <comp lib="0" loc="(100,140)" name="Pin">
+      <a name="label" val="D" />
+    </comp>
+    <comp lib="0" loc="(100,500)" name="Pin">
+      <a name="label" val="en" />
+    </comp>
+    <comp lib="0" loc="(930,180)" name="Pin">
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+      <a name="label" val="Q" />
+    </comp>
+    <comp lib="0" loc="(930,400)" name="Pin">
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+      <a name="label" val="Qbar" />
+    </comp>
+    <comp lib="1" loc="(300,320)" name="NAND Gate">
+      <a name="inputs" val="2" />
+    </comp>
+    <comp lib="1" loc="(520,160)" name="NAND Gate">
+      <a name="inputs" val="2" />
+    </comp>
+    <comp lib="1" loc="(520,400)" name="NAND Gate">
+      <a name="inputs" val="2" />
+    </comp>
+    <comp lib="1" loc="(760,180)" name="NAND Gate">
+      <a name="inputs" val="2" />
+    </comp>
+    <comp lib="1" loc="(760,400)" name="NAND Gate">
+      <a name="inputs" val="2" />
+    </comp>
+  </circuit>
+</project>

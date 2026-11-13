@@ -1,0 +1,2 @@
+ALL POST-SYNTHESIS VERILOG TESTS PASSED
+tb_netlists.v:37: $finish called at 300000 (1ps)
